@@ -1,6 +1,6 @@
 import "./catagory-item.styles.scss";
 
-const CatagoryItem = (catagory) => {
+const CatagoryItem = ({ catagory }) => {
   const { imageUrl, title } = catagory;
 
   return (
